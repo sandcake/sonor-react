@@ -22,6 +22,7 @@ module.exports = {
     devServer: {
         contentBase: './dist',
         hot: true,
-        historyApiFallback: true
+        historyApiFallback: true,
+        port: process.env.PORT || 8080
     }
 };
