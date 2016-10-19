@@ -1,6 +1,6 @@
 module.exports = {
     entry: [
-        'webpack-dev-server/client?http://sonor-react.herokuapp.com',
+        'webpack-dev-server/client?http://localhost:80',
         'webpack/hot/only-dev-server',
         './src/index.js'
     ],
@@ -23,6 +23,7 @@ module.exports = {
         contentBase: './dist',
         hot: true,
         historyApiFallback: true,
-        port:8080
+        port:8080,
+        host: 'sonor-react.herokuapp.com'
     }
 };
