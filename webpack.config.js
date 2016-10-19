@@ -22,8 +22,6 @@ module.exports = {
     devServer: {
         contentBase: './dist',
         hot: true,
-        historyApiFallback: true,
-        port:8080,
-        host: 'sonor-react.herokuapp.com'
+        historyApiFallback: true
     }
 };
